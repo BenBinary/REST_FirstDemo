@@ -4,9 +4,11 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+app.use(bodyParser.json());
 app.use('/feed', feedRoutes);
 
 //Dies ist für Formular Daten
 //app.use(bodyParser.urlencoded());
+
 
 app.listen(8080);

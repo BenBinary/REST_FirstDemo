@@ -15,7 +15,7 @@ exports.createPost = (req, res, next) => {
     res.status(201).json({
 
         message: 'Post successfully created',
-        post: {id: new Date().toISOString(), title: title, content: content}
+        post: {id: "asdf", title: title, content: content}
 
     }); 
 
