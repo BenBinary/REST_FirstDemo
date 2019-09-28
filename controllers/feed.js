@@ -11,6 +11,8 @@ exports.createPost = (req, res, next) => {
     const title = req.body.title;
     const content = req.body.content;
 
+    console.log("Titel und Content", title, content);
+
     // Create post in DB
     res.status(201).json({
 
