@@ -5,7 +5,7 @@ exports.getPosts = (req, res, next) => {
                 _id: '1',
                 title: "Entenpost", 
                 content: "This is the first post",
-                image: '/image/duck.jpg',
+                imageUrl: '/image/duck.jpg',
                 creator: {
                     name: "Benedikt Kurz"
                 }, 
